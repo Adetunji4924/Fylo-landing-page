@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply flex flex-col justify-center items-center;
+}
+
+.card1{
+    @apply flex flex-col bg-primary-400 px-5 pt-10 pb-5 gap-5 rounded;
+}
+
+.button-gradient{
+    @apply bg-gradient-to-r from-accent-cyan to-accent-blue hover:from-accent-cyan hover:to-accent-cyan cursor-pointer font-bold font-raleway text-neutral-white;
+}
+
+.links{
+    @apply text-neutral-white hover:font-bold cursor-pointer;
+}
